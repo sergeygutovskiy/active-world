@@ -1,0 +1,71 @@
+
+/*! CSS Used from: https://fpi.gov.ru/css/main.min.css */
+*::-webkit-input-placeholder{color:#666;opacity:1;}
+*:-moz-placeholder{color:#666;opacity:1;}
+*::-moz-placeholder{color:#666;opacity:1;}
+*:-ms-input-placeholder{color:#666;opacity:1;}
+ul{margin:0;padding:0;list-style-type:none;}
+a{-webkit-transition:all .5s ease;-o-transition:all .5s ease;transition:all .5s ease;text-decoration:none;}
+.btn-with-circle{color:#010101;font-size:15px;line-height:22.1px;font-family:"RobotoLight", sans-serif;-webkit-box-sizing:border-box;box-sizing:border-box;padding-left:70px;position:relative;}
+.btn-with-circle .circle{width:50px;height:50px;position:absolute;left:0;top:50%;margin-top:-25px;border:1px solid #E4E6E9;-webkit-box-sizing:border-box;box-sizing:border-box;border-radius:50%;-webkit-transition:all .5s ease;-o-transition:all .5s ease;transition:all .5s ease;}
+.btn-with-circle .circle::before,.btn-with-circle .circle::after{width:22px;height:1px;background:#f83854;content:'';position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);transform:translate(-50%, -50%);}
+.btn-with-circle .circle::before{height:22px;width:1px;}
+.s-contacts-page{padding-top:25px;}
+.s-contacts-page .scp-flex{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+.s-contacts-page .scp-flex .scp-map{min-height:536px;-webkit-flex-basis:53.5%;-ms-flex-preferred-size:53.5%;flex-basis:53.5%;}
+.s-contacts-page .scp-flex .scp-content{-webkit-flex-basis:46.5%;-ms-flex-preferred-size:46.5%;flex-basis:46.5%;-webkit-box-sizing:border-box;box-sizing:border-box;padding-left:132px;padding-top:46px;padding-right:15px;padding-bottom:46px;}
+.s-contacts-page .scp-flex .scp-content .scp-hdr{display:block;color:#1a2a43;font-size:25px;line-height:25px;font-family:"CirceExtraBold", sans-serif;margin-bottom:30px;}
+.s-contacts-page .scp-flex .scp-content .scp-descr{color:#353535;font-size:17.55px;line-height:26.33px;font-family:"RobotoMedium", sans-serif;display:block;letter-spacing:0.2px;margin-bottom:25px;}
+.s-contacts-page .scp-flex .scp-content .scp-ul{padding-bottom:8px;}
+.s-contacts-page .scp-flex .scp-content .scp-ul li{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin-bottom:25px;}
+.s-contacts-page .scp-flex .scp-content .scp-ul li .scp-ul-gray{color:rgba(54, 54, 54, 0.35);font-size:15px;line-height:25px;font-family:"RobotoLight", sans-serif;max-width:130px;min-width:130px;-webkit-flex-basis:130px;-ms-flex-preferred-size:130px;flex-basis:130px;margin-right:27px;}
+.s-contacts-page .scp-flex .scp-content .scp-ul li .scp-ul-black{color:#000000;font-size:15px;line-height:25px;font-family:"RobotoRegular", sans-serif;max-width:310px;}
+.s-contacts-page .scp-flex .scp-content .btn-with-circle{color:#2877f9;}
+@media only screen and (max-width: 1400px){
+.s-contacts-page .scp-flex .scp-content{padding-left:45px;-webkit-flex-basis:50%;-ms-flex-preferred-size:50%;flex-basis:50%;}
+.s-contacts-page .scp-flex .scp-map{-webkit-flex-basis:50%;-ms-flex-preferred-size:50%;flex-basis:50%;}
+}
+@media only screen and (max-width: 1200px){
+.s-contacts-page .scp-flex .scp-content{padding-left:15px;padding-top:35px;padding-bottom:35px;}
+}
+@media only screen and (max-width: 992px){
+.s-contacts-page .scp-flex{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.s-contacts-page .scp-flex .scp-content{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;}
+.s-contacts-page .scp-flex .scp-map{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;min-height:350px;}
+.s-contacts-page .scp-flex .scp-content .scp-ul li .scp-ul-black{max-width:100%;}
+.s-contacts-page .scp-flex .scp-content .scp-ul li .scp-ul-gray{min-width:250px;max-width:250px;-webkit-flex-basis:250px;-ms-flex-preferred-size:250px;flex-basis:250px;}
+}
+@media only screen and (max-width: 600px){
+.s-contacts-page .scp-flex .scp-content .scp-ul li{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-bottom:15px;}
+.s-contacts-page .scp-flex .scp-content .scp-hdr{font-size:21px;line-height:21px;margin-bottom:15px;}
+.s-contacts-page .scp-flex .scp-content .scp-descr{font-size:16px;line-height:21px;margin-bottom:15px;}
+.s-contacts-page .scp-flex .scp-content .scp-ul li .scp-ul-gray{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;min-width:auto;max-width:100%;}
+}
+/*! CSS Used fontfaces */
+
+/*! CSS Used from: https://fpi.gov.ru/css/direction.css */
+.s-header-line .shl-hdr{margin-bottom:0;}
+/*! CSS Used from: https://fpi.gov.ru/css/project.css */
+.s-header-line .shl-hdr{margin-bottom:0;}
+/*! CSS Used from: https://fpi.gov.ru/css/main.min.css */
+*::-webkit-input-placeholder{color:#666;opacity:1;}
+*:-moz-placeholder{color:#666;opacity:1;}
+*::-moz-placeholder{color:#666;opacity:1;}
+*:-ms-input-placeholder{color:#666;opacity:1;}
+.s-header-line{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;border-bottom:1px solid #EBEBEB;-webkit-box-align:end;-webkit-align-items:flex-end;-ms-flex-align:end;align-items:flex-end;-webkit-box-sizing:border-box;box-sizing:border-box;padding-top:40px;padding-left:19px;max-width:1668px;margin-left:auto;margin-right:auto;position:relative;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.s-header-line .shl-hdr{color:#1a2a43;font-size:44px;line-height:44px;font-family:"CirceRegular", sans-serif;margin-right:6.1%;margin-bottom:15px;}
+@media only screen and (max-width: 1650px){
+.s-header-line{padding-left:15px;}
+.s-header-line .shl-hdr{margin-right:20px;}
+}
+@media only screen and (max-width: 1400px){
+.s-header-line .shl-hdr{display:block;margin-right:0px;-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;}
+.s-header-line{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+}
+@media only screen and (max-width: 1200px){
+.s-header-line .shl-hdr{font-size:32px;line-height:32px;}
+}
+@media only screen and (max-width: 768px){
+.s-header-line .shl-hdr{font-size:24px;line-height:24px;}
+.s-header-line{padding-top:20px;}
+}
