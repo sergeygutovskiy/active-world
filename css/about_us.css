@@ -547,7 +547,7 @@
 
 
 #footer_map_form_row {
-	width: 918px;
+	width: 620px;
 }
 
 #footer_map_form_row .footer_map_row div:first-child {
@@ -558,12 +558,11 @@
 	width: 100%;
 	height: 60px;
 	margin-bottom: 5px;
-	/*text-align: center;*/
 }
 
 #footer_map_form input {
     /*width: calc(90% - 120px);*/
-    width: 400px;
+    width: 405px;
     margin-left: 0;
     font-size: 16px;
     padding: 12px;
@@ -579,8 +578,8 @@
     border: solid 1px lightgray;
     font-size: 14px;
     width: 100px;
-    padding: 4px;
+    padding: 6px;
     position: relative;
-    top: -10px;
-    padding-bottom: 5px;
+    top: -8px;
+    padding-bottom: 3px;
 }
