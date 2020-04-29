@@ -152,33 +152,6 @@
 		<a href="#0" class="cd-nav-trigger">Меню<span></span></a>
 	</header>
 
-	<!-- <div id="feedback">
-		<div id="feedback-form">
-			<div id="feedback-cls-btn"></div>
-			<div id="feedback-form-content">
-				<div id="feedback-title">
-					Обратная связь
-				</div>
-				<div id="feedback-subtitle">
-					Мы скоро свяжемся с вами
-				</div>
-				<div class="form-group">
-					<input placeholder="Имя" class="feedback-input">					
-				</div>
-				<div class="form-group">
-					<input placeholder="Почта" class="feedback-input">
-				</div>
-				<div class="form-group">
-					<input placeholder="Телефон" class="feedback-input">
-				</div>
-				<div class="form-group">
-					<input placeholder="Сообщение" class="feedback-input">
-				</div>
-				<div id="feedback-submit-btn"></div>
-			</div>
-		</div>
-	</div> -->
-
 	<div id="feedback-form">
 		<span class="feedback-close" onclick="hideFeedback()"></span>
 		<div class="feedback-body">
@@ -411,124 +384,132 @@
 			<img style="display:none" itemprop="image" src="/images/logo_dark.png" alt="Evorate">
 			<div class="container">
 				<div class="footer_map">
-					<div class="footer_map_row">
-						<div>
-							<h6>О компании</h6>
-							<ul>
-								<li>
-									<a href="/uslugi/sozdanie-saitov/eksklyuzivnie" 
-									title="Индивидуальные сайты">
-										О нас
-									</a>
-								</li>
+					<div class="footer_map_row" id="footer_map_form_row">
+						<div id="footer_map_form">
+							<!-- <label>Рассылка</label> -->
+							<input type="text" placeholder="Ваша почта">
+							<button>Получить рассылку</button>
+							<div></div>
+						</div>
+						<div class="footer_map_row">
+							<div>
+								<h6>О компании</h6>
+								<ul>
+									<li>
+										<a href="/uslugi/sozdanie-saitov/eksklyuzivnie" 
+										title="Индивидуальные сайты">
+											О нас
+										</a>
+									</li>
 
-								<li>
-									<a href="/uslugi/sozdanie-saitov" 
-									title="Сайт-под ключ">
-										Тренеры
-									</a>
-								</li>
-								<li>
-									<a href="/uslugi/sozdanie-saitov/landing-page" 
-									title="landing Page">
-										Отзывы
-									</a>
-								</li>
-								<li>
-									<a href="/uslugi/sozdanie-saitov/multilending" 
-									title="Мультилендинг">
-										Новости
-									</a>
-								</li>
-							</ul>
+									<li>
+										<a href="/uslugi/sozdanie-saitov" 
+										title="Сайт-под ключ">
+											Тренеры
+										</a>
+									</li>
+									<li>
+										<a href="/uslugi/sozdanie-saitov/landing-page" 
+										title="landing Page">
+											Отзывы
+										</a>
+									</li>
+									<li>
+										<a href="/uslugi/sozdanie-saitov/multilending" 
+										title="Мультилендинг">
+											Новости
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div>
+								<h6>Бизнес обучение</h6>
+								<ul>
+									<li>
+										<a href="/ajdentika-brending" title="Айдентика/Брендинг">
+											Онлайн обучение
+										</a>
+									</li>
+									<li>
+										<a href="/uslugi/veb-dizajn/sozdanie-marketing-kit" 
+										title="Создание Маркетинг-кит">
+											Тренинги
+										</a>
+									</li>
+									<li>
+										<a href="/uslugi/veb-dizajn/sozdanie-brendbuk" 
+										title="Создание Брендбук">
+											Вебинары
+										</a>
+									</li>
+								</ul>
+							</div>
 						</div>
-						<div>
-							<h6>Бизнес обучение</h6>
-							<ul>
-								<li>
-									<a href="/ajdentika-brending" title="Айдентика/Брендинг">
-										Онлайн обучение
-									</a>
-								</li>
-								<li>
-									<a href="/uslugi/veb-dizajn/sozdanie-marketing-kit" 
-									title="Создание Маркетинг-кит">
-										Тренинги
-									</a>
-								</li>
-								<li>
-									<a href="/uslugi/veb-dizajn/sozdanie-brendbuk" 
-									title="Создание Брендбук">
-										Вебинары
-									</a>
-								</li>
-							</ul>
+						<div class="footer_map_row">
+							<div>
+								<h6>Бизнес клуб</h6>
+								<ul>
+									<li>
+										<a href="/uslugi/kontekstnaya-reklama" 
+										title="Контекстная реклама">
+											События
+										</a>
+									</li>
+									<li>
+										<a href="/uslugi/kontekstnaya-reklama/nastroyka-yandex-direkt" 
+										title="- Яндекс. Директ">
+											Партнерство
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div>
+								<h6>Консалтинг</h6>
+								<ul>
+									<li>
+										<a href="/uslugi/prodvizhenie-v-soczialnyix-setyax/prodvizhenie-vo-vkontakte" 
+										title="Продвижение во вКонтакте">
+											Компаниям
+										</a>
+									</li>
+									<li>
+										<a href="/uslugi/prodvizhenie-v-soczialnyix-setyax/raskrutka-instagram" 
+										title="Раскрутка Instagram">
+											Частным лицам
+										</a>
+									</li>
+								</ul>
+							</div>
 						</div>
-					</div>
-					<div class="footer_map_row">
-						<div>
-							<h6>Бизнес клуб</h6>
-							<ul>
-								<li>
-									<a href="/uslugi/kontekstnaya-reklama" 
-									title="Контекстная реклама">
-										События
-									</a>
-								</li>
-								<li>
-									<a href="/uslugi/kontekstnaya-reklama/nastroyka-yandex-direkt" 
-									title="- Яндекс. Директ">
-										Партнерство
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div>
-							<h6>Консалтинг</h6>
-							<ul>
-								<li>
-									<a href="/uslugi/prodvizhenie-v-soczialnyix-setyax/prodvizhenie-vo-vkontakte" 
-									title="Продвижение во вКонтакте">
-										Компаниям
-									</a>
-								</li>
-								<li>
-									<a href="/uslugi/prodvizhenie-v-soczialnyix-setyax/raskrutka-instagram" 
-									title="Раскрутка Instagram">
-										Частным лицам
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="footer_map_row">
-						<div>
-							<h6>Библиотека</h6>
-							<ul>
-								<li>
-									<a href="/uslugi/seo-prodvizhenie" 
-									title="SEO продвижение">
-										Корпоративная библиотека
-									</a>
-								</li>
-								<li>
-									<a href="/uslugi/seo-prodvizhenie/optimizatsiya-sajta" 
-									title="SEO оптимизация">
-										Книги для бизнеса
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div>
-							<h6>Образование детям</h6>
-							<ul>
-								<li>
-									<a href="/portfolio/clean-carry" 
-									title="Clean Carry">
-										Главное для детей
-									</a>
-								</li>
-							</ul>
+						<div class="footer_map_row">
+							<div>
+								<h6>Библиотека</h6>
+								<ul>
+									<li>
+										<a href="/uslugi/seo-prodvizhenie" 
+										title="SEO продвижение">
+											Корпоративная библиотека
+										</a>
+									</li>
+									<li>
+										<a href="/uslugi/seo-prodvizhenie/optimizatsiya-sajta" 
+										title="SEO оптимизация">
+											Книги для бизнеса
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div>
+								<h6>Образование детям</h6>
+								<ul>
+									<li>
+										<a href="/portfolio/clean-carry" 
+										title="Clean Carry">
+											Главное для детей
+										</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 					<div class="footer_info">
