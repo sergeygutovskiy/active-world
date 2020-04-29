@@ -1,0 +1,60 @@
+.coach-div{
+  background-image: url(../img/dots.png);
+  height: 400px;
+  background-position: center; 
+  background-position-y: -152px; 
+  overflow: auto;
+}
+
+.coach-div h1{
+  font-size: 60px;
+  color:black;
+  text-align: center;
+  padding: 39px;
+}
+.h1-on-main{
+	font-size: 29px;
+	padding: 75px 0 50px 30px;
+}
+@media (max-width: 1024px){
+	.coach-div h1{
+  font-size: 27px;
+  
+  text-align: center;
+  padding: 15px;
+}
+.coach-div{
+	background-position-y: -270px;
+  height: 200px;
+}
+}
+.text-in-carousel-1 h1{
+  font-size: 26px;
+  text-align: center;
+      color: #302a3f;
+}
+.text-in-carousel-1 h1:hover{
+  color:#2c346d;
+}
+.text-in-carousel-1 p{
+  text-align: center;
+}
+.main-div-carousel-1 img{
+height: 150px;
+width: 150px !important;
+background-size: cover;
+
+margin: auto;
+margin-top: 15px;
+}
+.main-div-carousel-1{
+    margin: auto;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.15), 0 10px 15px -10px rgba(173,173,173,.15);
+}
+.text-in-carousel-1{
+ border: none;
+ box-shadow: none;
+}
+
+
